@@ -11,6 +11,6 @@ module "bigquery" {
 }
 
 locals{
-  dev_bq_dataset_names = ["test_12","blah","blah_blah"]
+  dev_bq_dataset_names = ["test_12","blah","blah_blah","mandar","jidnyasa"]
 }
   
