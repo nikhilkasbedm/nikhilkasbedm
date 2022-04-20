@@ -23,11 +23,6 @@ pipeline {
       }
     }
     
-    stage('execute') {
-      steps {
-        sh 'chmod 777 terraformw'
-      }
-    }
     stage('terraform init') {
      steps {
        sh 'terraform init'
